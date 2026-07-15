@@ -22,6 +22,5 @@ jobs:
       with:
         gradle-version: '8.2'
 
-    # أمر بناء نظيف تماماً بدون أي معاملات قد تسبب لبس لـ Gradle
     - name: Build Debug APK
       run: ./gradlew assembleDebug --no-daemon
